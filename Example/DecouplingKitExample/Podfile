@@ -1,7 +1,7 @@
 platform :ios, '7.0'
 
 target "DecouplingKitExample" do
-	pod 'DecouplingKit', :path=>'../../DecouplingKit’
+	pod 'DecouplingKit', :path=>'../../’
     pod 'Bussiness1', :path=>'../Bussiness1’
     pod 'Bussiness2', :path=>'../Bussiness2’
     pod 'BussinessPublicService', :path=>'../BussinessPublicService’

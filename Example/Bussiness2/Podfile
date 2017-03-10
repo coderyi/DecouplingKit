@@ -1,7 +1,7 @@
 platform :ios, '7.0'
 
 target "Bussiness2" do
-	pod 'DecouplingKit', :path=>'../../DecouplingKit’
+	pod 'DecouplingKit', :path=>'../../’
     pod 'BussinessPublicService', :path=>'../BussinessPublicService’
     #pod 'Bussiness2', :path=>'/Users/youku/Music/github/DecouplingKit1/Bussiness2’
 
