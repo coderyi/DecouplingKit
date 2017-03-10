@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "DecouplingKit"
   s.description  = "DecouplingKit"
+  s.license      = "MIT"
 
 
 

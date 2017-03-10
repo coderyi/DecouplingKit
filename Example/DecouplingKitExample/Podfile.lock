@@ -8,7 +8,7 @@ DEPENDENCIES:
   - Bussiness1 (from `../Bussiness1`)
   - Bussiness2 (from `../Bussiness2`)
   - BussinessPublicService (from `../BussinessPublicService`)
-  - DecouplingKit (from `../../DecouplingKit`)
+  - DecouplingKit (from `../../`)
 
 EXTERNAL SOURCES:
   Bussiness1:
@@ -18,14 +18,14 @@ EXTERNAL SOURCES:
   BussinessPublicService:
     :path: "../BussinessPublicService"
   DecouplingKit:
-    :path: "../../DecouplingKit"
+    :path: "../../"
 
 SPEC CHECKSUMS:
   Bussiness1: 4d47ae41c800e1e13bbb1354614ec89f09e2aeaa
   Bussiness2: fe8f5a1fd93aa68faf471cec830d23e718e85618
   BussinessPublicService: 671cb1e5f60c09eefdf5f28eaee170220068a654
-  DecouplingKit: 4867954e90e0a1c4cd1451db07c8b562ac013236
+  DecouplingKit: b161139761b02057b107f0b4fc8871c11611f947
 
-PODFILE CHECKSUM: b436c05e49297d7d681209771e26b4aea7d0cd7d
+PODFILE CHECKSUM: bf5b0afb9975cc549ba9ca3ec3b582e925c0374c
 
 COCOAPODS: 1.0.1

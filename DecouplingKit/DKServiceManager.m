@@ -50,7 +50,6 @@ static const NSString *kImpl = @"impl";
 
 
 - (Class)createClass:(Protocol *)service {
-    id implInstance = nil;
     
     if (![self checkValidService:service]) {
         NSLog(@"%@", [NSString stringWithFormat:@"%@ protocol does not been registed", NSStringFromProtocol(service)] );
@@ -71,7 +70,7 @@ static const NSString *kImpl = @"impl";
     
     Class implClass = [self serviceImplClass:service];
     
-    if ([[implClass class] respondsToSelector:@selector(shareInstance)])
+    if ([[implClass class] respondsToSelector:@selector(sharedInstance)])
         implInstance = [[implClass class] sharedInstance];
     else
         implInstance = [[implClass alloc] init];
