@@ -1,0 +1,31 @@
+PODS:
+  - Bussiness1 (0.0.1)
+  - Bussiness2 (0.0.1)
+  - BussinessPublicService (0.0.1)
+  - DecouplingKit (0.0.1)
+
+DEPENDENCIES:
+  - Bussiness1 (from `../Bussiness1`)
+  - Bussiness2 (from `../Bussiness2`)
+  - BussinessPublicService (from `../BussinessPublicService`)
+  - DecouplingKit (from `../../DecouplingKit`)
+
+EXTERNAL SOURCES:
+  Bussiness1:
+    :path: "../Bussiness1"
+  Bussiness2:
+    :path: "../Bussiness2"
+  BussinessPublicService:
+    :path: "../BussinessPublicService"
+  DecouplingKit:
+    :path: "../../DecouplingKit"
+
+SPEC CHECKSUMS:
+  Bussiness1: 4d47ae41c800e1e13bbb1354614ec89f09e2aeaa
+  Bussiness2: fe8f5a1fd93aa68faf471cec830d23e718e85618
+  BussinessPublicService: 671cb1e5f60c09eefdf5f28eaee170220068a654
+  DecouplingKit: 4867954e90e0a1c4cd1451db07c8b562ac013236
+
+PODFILE CHECKSUM: b436c05e49297d7d681209771e26b4aea7d0cd7d
+
+COCOAPODS: 1.0.1
