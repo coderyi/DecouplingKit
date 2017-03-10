@@ -1,19 +1,14 @@
 # DecouplingKit
 
-[![Pod Version](http://img.shields.io/cocoapods/v/DecouplingKit.svg?style=flat)](http://cocoadocs.org/docsets/DecouplingKit/)
-[![Pod Platform](http://img.shields.io/cocoapods/p/DecouplingKit.svg?style=flat)](http://cocoadocs.org/docsets/NetworkEye/)
-[![Pod License](http://img.shields.io/cocoapods/l/DecouplingKit.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 [![Twitter](https://img.shields.io/badge/twitter-@coderyi9-green.svg?style=flat)](http://twitter.com/coderyi9)
-[![](https://img.shields.io/github/stars/coderyi/DecouplingKit.svg)](https://github.com/coderyi/DecouplingKit/stargazers) 
-[![](https://img.shields.io/github/forks/coderyi/DecouplingKit.svg)](https://github.com/coderyi/DecouplingKit/network) 
-[![](https://img.shields.io/cocoapods/dt/DecouplingKit.svg?maxAge=2592000)](https://github.com/coderyi/DecouplingKit) 
 
 #### Podfile
 
 ```ruby
 
 	platform :ios, '7.0'
-	pod 'DecouplingKit', '~> 0.0.1'
+	pod 'DecouplingKit', '~> 0.0.2'
 
 ```
 
