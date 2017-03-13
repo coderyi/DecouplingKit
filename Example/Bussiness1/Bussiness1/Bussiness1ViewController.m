@@ -48,10 +48,10 @@
 -(void)click:(UIButton *)btn
 {
     //创建一个实例，如果这个Bussiness2ServiceProtocol对应的类实现了sharedInstance方法则生成单例
-    id<Bussiness2ServiceProtocol> v4 =[[DKServiceManager sharedInstance] createInstance:@protocol(Bussiness2ServiceProtocol)];
+    id<Bussiness2ServiceProtocol> bussiness2 =[[DKServiceManager sharedInstance] createInstance:@protocol(Bussiness2ServiceProtocol)];
     
     //调用服务
-    NSDictionary *data =[v4 fetchBussiness2DataWithName:@"DecouplingKit" age:@"1"];
+    NSDictionary *data =[bussiness2 fetchBussiness2DataWithName:@"DecouplingKit" age:@"1"];
     
     //创建一个类
     Class Bussiness2 = [[DKServiceManager sharedInstance] createClass:@protocol(Bussiness2ServiceProtocol)];

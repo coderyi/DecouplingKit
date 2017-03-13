@@ -2,7 +2,7 @@ PODS:
   - Bussiness1 (0.0.1)
   - Bussiness2 (0.0.1)
   - BussinessPublicService (0.0.1)
-  - DecouplingKit (0.0.1)
+  - DecouplingKit (0.0.2)
 
 DEPENDENCIES:
   - Bussiness1 (from `../Bussiness1`)
@@ -12,20 +12,20 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Bussiness1:
-    :path: "../Bussiness1"
+    :path: ../Bussiness1
   Bussiness2:
-    :path: "../Bussiness2"
+    :path: ../Bussiness2
   BussinessPublicService:
-    :path: "../BussinessPublicService"
+    :path: ../BussinessPublicService
   DecouplingKit:
-    :path: "../../"
+    :path: ../../
 
 SPEC CHECKSUMS:
   Bussiness1: 4d47ae41c800e1e13bbb1354614ec89f09e2aeaa
   Bussiness2: fe8f5a1fd93aa68faf471cec830d23e718e85618
   BussinessPublicService: 671cb1e5f60c09eefdf5f28eaee170220068a654
-  DecouplingKit: b161139761b02057b107f0b4fc8871c11611f947
+  DecouplingKit: 77c56383787059f35c56668136d78f8add6f0359
 
 PODFILE CHECKSUM: bf5b0afb9975cc549ba9ca3ec3b582e925c0374c
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
