@@ -46,9 +46,9 @@ DecouplingKit是基于[BeeHive](https://github.com/alibaba/BeeHive)改造的，B
 
 创建一个实例，如果这个Bussiness2ServiceProtocol对应的类实现了sharedInstance方法则生成单例,然后调用对应的实例方法
 ```
-    id<Bussiness2ServiceProtocol> v4 =[[DKServiceManager sharedInstance] createInstance:@protocol(Bussiness2ServiceProtocol)];
+    id<Bussiness2ServiceProtocol> bussiness2 =[[DKServiceManager sharedInstance] createInstance:@protocol(Bussiness2ServiceProtocol)];
     
-    NSDictionary *data =[v4 fetchBussiness2DataWithName:@"DecouplingKit" age:@"1"];
+    NSDictionary *data =[bussiness2 fetchBussiness2DataWithName:@"DecouplingKit" age:@"1"];
 
 ```
 

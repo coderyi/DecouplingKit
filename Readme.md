@@ -3,7 +3,7 @@
 
 [![Twitter](https://img.shields.io/badge/twitter-@coderyi9-green.svg?style=flat)](http://twitter.com/coderyi9)
 
-[中文readme]()
+[中文readme](https://github.com/coderyi/DecouplingKit/blob/master/Documents/Readme_cn.md)
 #### Podfile
 
 ```ruby
