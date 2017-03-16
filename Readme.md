@@ -42,7 +42,7 @@ Register the default DKService.plist service list
 Register a list of custom paths for services
 
 ```
-    [[DKServiceManager sharedInstance] registerLocalServicesWithServiceConfigName:@"DecouplingKit.bundle/BeeHive"];
+    [[DKServiceManager sharedInstance] registerLocalServicesWithServiceConfigName:@"DecouplingKit.bundle/DKService"];
 
 ```
 
