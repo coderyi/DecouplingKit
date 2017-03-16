@@ -40,7 +40,7 @@ DecouplingKit是基于[BeeHive](https://github.com/alibaba/BeeHive)改造的，B
 
 注册自定义路径的服务列表
 ```
-    [[DKServiceManager sharedInstance] registerLocalServicesWithServiceConfigName:@"DecouplingKit.bundle/BeeHive"];
+    [[DKServiceManager sharedInstance] registerLocalServicesWithServiceConfigName:@"DecouplingKit.bundle/DKService"];
 
 ```
 
