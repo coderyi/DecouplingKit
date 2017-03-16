@@ -30,7 +30,7 @@ DKServiceManager既可以返回实例，也可以返回类方法，当然对于�
 DecouplingKit是基于[BeeHive](https://github.com/alibaba/BeeHive)改造的，BeeHive包括AppDelegate管理和模块调用解耦两部分，DecouplingKit专注于模块调用解耦这部分，DecouplingKit只有一个类比起BeeHive轻量，支持调用实例和类方法，属性。对比解耦的另一种方式就是通过runtime来做，例如[CTMediator](https://github.com/casatwy/CTMediator)，通过一个中间层（对应BussinessPublicService）来公布对应的接口，接口调用CTMediator（runtime）来实现，这也是一种非常好的方案。
 
 
-##使用
+#### 使用
 
 注册默认的DKService.plist服务列表
 
