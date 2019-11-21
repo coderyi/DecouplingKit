@@ -22,14 +22,14 @@ DecouplingKit, decoupling between modules in your iOS Project.
 ![](https://github.com/coderyi/DecouplingKit/blob/master/Documents/DecouplingKit.png)
 
 
-DecouplingKit only one class DKServiceManager, used to load the service list DKService.plist, the service is a business's  protocol, there are other business needs to call the method, attributes and so on. DKService.plist includes service and impl, service is protocol, impl is the implementation of the protocol class.
+DDKServiceManager, used to load the service list DKService.plist, the service is a business's  protocol. DKService.plist includes service and impl, service is protocol, impl is the implementation of the protocol class.
 
 
 
 
 
 
-DecouplingKit is based on [BeeHive] (https://github.com/alibaba/BeeHive),  Another way to decoupling is through the runtime, such as [CTMediator] (https://github.com/casatwy/CTMediator), this is a very good program.
+DecouplingKit is based on [BeeHive] (https://github.com/alibaba/BeeHive),  Another way to decouple is the runtime, such as [CTMediator] (https://github.com/casatwy/CTMediator), this is a very good program.
 
 #### Use
 
@@ -46,7 +46,7 @@ Register a list of custom paths for services
 
 ```
 
-Create an instance, if the Bussiness2ServiceProtocol corresponding to the class to achieve the sharedInstance method,so generate a singleton, and then call the corresponding instance method
+singleton
 
 ```
     id<Bussiness2ServiceProtocol> bussiness2 =[[DKServiceManager sharedInstance] createInstance:@protocol(Bussiness2ServiceProtocol)];
@@ -66,7 +66,7 @@ Create a class and then call the corresponding class method
 ```
 
 
-Create a service protocol for your own business line class
+Create a service protocol for your business class
 
 ```
 @protocol Bussiness2ServiceProtocol <DKServiceProtocol>
